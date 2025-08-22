@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    border-left: 250px solid rgb(39, 39, 39);
+    border-right: 250px solid rgb(39, 39, 39);
+    background-color: rgb(28, 28, 28);
+    min-height: 100%;
+    margin: 0;
+    color: white; /* batata */
+}
+.menulinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.menulinks ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap: 50px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menulinks a{
+    color: white;
+    text-decoration: none;
+}
+.menulinks a:hover{
+    color: rgb(60, 180, 66);
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.titulo h1{
+    font-family: Poppins;
+    font-size: 100px;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.primeiro{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+}
+.textoprimeiro{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: Poppins;
+    font-size: larger;
+    padding-left: 10px;
+}
+.textoprimeiro h2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.textoprimeiro h3{
+    margin: 0;
+}
+.imagemprimeiro img{
+    height: 500px;
+    width: 500px;
+}
+.segundo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.txtsegundo{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: Poppins;
+    font-size: larger;
+}
+.txtsegundo h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+.txtsegundo h3{
+    margin: 0;
+}
+.txtsegundo a{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+}
+.txtsegundo a:hover{
+    color: rgb(60, 180, 66);
+}
+.imgsegundo img{
+    height: 500px;
+    width: 530px;
+}
+.terceiro{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+}
+.txterceiro{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: Poppins;
+    font-size: larger;
+    padding-left: 10px;
+}
+.txterceiro h2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.txterceiro h3{
+    margin: 0;
+}
+.imgterceiro img{
+    height: 500px;
+    width: 500px;
+}
+.txterceiro a{
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+}
+.txterceiro a:hover{
+    color: rgb(60, 180, 66);
+}
+footer{
+    background-color: rgb(25, 25, 25);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto Mono;
+    font-size: 20px;
+}
+.fotlinks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    justify-content: center;
+}
+.fotlinks ul{
+    list-style-type: none;
+}
+.fotlinks li{
+    font-weight: bold;
+    line-height: 35px;
+}
+.fotlinks a{
+    color: white;
+    text-decoration: none;
+}
+.fotlinks a:hover{
+    color: rgb(60, 180, 66);
+}
+.fotimg img{
+    height: 150px;
+    width: 150px;
+}
+.fotimg{
+    padding-top: 20px;
+}
+.textocont a{
+    color: white;
+    text-decoration: none;
+}
+.textocont a:hover{
+    color: rgb(60, 180, 66);
+}
+.textocont ul{
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+}
